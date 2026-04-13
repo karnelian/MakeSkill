@@ -1,10 +1,10 @@
 @echo off
-REM specs-engine v5.3 Windows 설치 (더블클릭)
+REM specs-engine v5.4 Windows 설치 (더블클릭)
 REM 관리자 권한 불필요
 
 echo.
 echo ==================================
-echo   specs-engine v5.3 설치
+echo   specs-engine v5.4 설치
 echo ==================================
 echo.
 
@@ -19,7 +19,7 @@ if errorlevel 1 (
 )
 
 REM PowerShell로 install.ps1 실행
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/karnelian/specs-engine/master/install.ps1 | iex"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/karnelian/MakeSkill/master/specs-engine/install.ps1 | iex"
 
 echo.
 pause

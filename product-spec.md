@@ -10,7 +10,7 @@
 
 사용자는 **CEO 역할**만 수행합니다. 엔진/언어/프레임워크 같은 S급 결정에만 답하면, 나머지는 AI가 자율적으로 진행합니다.
 
-**버전**: v5.4.0
+**버전**: v5.4
 **엔진 위치**: `~/.claude/specs-engine/`
 **엔트리포인트**: `~/.claude/specs-engine/orchestrator.md`
 
@@ -128,12 +128,12 @@ specs/{프로젝트명}/
 
 ```powershell
 # Windows
-iwr -useb https://raw.githubusercontent.com/karnelian/specs-engine/master/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/karnelian/MakeSkill/master/install.ps1 | iex
 ```
 
 ```bash
 # Mac / Linux
-curl -fsSL https://raw.githubusercontent.com/karnelian/specs-engine/master/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/karnelian/MakeSkill/master/install.sh | bash
 ```
 
 설치 후 아무 프로젝트 폴더에서 `/product-spec` 또는 "기획서 만들어줘"라고 입력하면 동작합니다.

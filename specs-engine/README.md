@@ -1,4 +1,4 @@
-# specs-engine v5.3
+# specs-engine v5.4
 
 AI 전문가 팀이 제품 기획서 + 설계서 + 개발가이드를 자동 생성하는 엔진.
 
@@ -55,22 +55,22 @@ specs-engine/                          (45파일, ~5,000줄)
 
 **Windows (PowerShell):**
 ```powershell
-iwr -useb https://raw.githubusercontent.com/karnelian/specs-engine/master/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/karnelian/MakeSkill/master/install.ps1 | iex
 ```
 
 **Mac / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/karnelian/specs-engine/master/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/karnelian/MakeSkill/master/install.sh | bash
 ```
 
 ### 방법 2: 더블클릭 (Windows)
 
-[install.bat](https://github.com/karnelian/specs-engine/raw/master/install.bat) 다운로드 후 더블클릭
+[install.bat](https://github.com/karnelian/MakeSkill/raw/master/install.bat) 다운로드 후 더블클릭
 
 ### 방법 3: 수동
 
 ```bash
-git clone https://github.com/karnelian/specs-engine ~/.claude/specs-engine
+git clone https://github.com/karnelian/MakeSkill ~/.claude/specs-engine
 bash ~/.claude/specs-engine/setup.sh         # Mac/Linux
 # 또는
 powershell -File %USERPROFILE%\.claude\specs-engine\setup.ps1   # Windows

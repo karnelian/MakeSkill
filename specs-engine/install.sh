@@ -1,20 +1,20 @@
 #!/bin/bash
-# specs-engine v5.3 원격 설치 스크립트 (Mac/Linux)
+# specs-engine v5.4 원격 설치 스크립트 (Mac/Linux)
 #
 # 사용법 (원라이너):
-#   curl -fsSL https://raw.githubusercontent.com/karnelian/specs-engine/master/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/karnelian/MakeSkill/master/specs-engine/install.sh | bash
 #
 # 또는 로컬:
 #   bash install.sh
 
 set -e
 
-REPO_URL="https://github.com/karnelian/specs-engine.git"
+REPO_URL="https://github.com/karnelian/MakeSkill.git"
 INSTALL_DIR="$HOME/.claude/specs-engine"
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  specs-engine v5.3 자동 설치"
+echo "  specs-engine v5.4 자동 설치"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 

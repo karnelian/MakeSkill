@@ -1,4 +1,4 @@
-# specs-engine v5.3 설치 스크립트 (Windows)
+# specs-engine v5.4 설치 스크립트 (Windows)
 # 사용법: git clone <repo> $HOME\.claude\specs-engine; .\setup.ps1
 
 $InstallDir = "$env:USERPROFILE\.claude\specs-engine"
@@ -7,7 +7,7 @@ $ScriptDir = $PSScriptRoot
 
 Write-Host ""
 Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-Write-Host "  specs-engine v5.3 설치"
+Write-Host "  specs-engine v5.4 설치"
 Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 Write-Host ""
 

@@ -1,18 +1,18 @@
-# specs-engine v5.3 원격 설치 스크립트 (Windows)
+# specs-engine v5.4 원격 설치 스크립트 (Windows)
 #
 # 사용법 (원라이너):
-#   iwr -useb https://raw.githubusercontent.com/karnelian/specs-engine/master/install.ps1 | iex
+#   iwr -useb https://raw.githubusercontent.com/karnelian/MakeSkill/master/specs-engine/install.ps1 | iex
 #
 # 또는 로컬:
 #   .\install.ps1
 
 $ErrorActionPreference = "Stop"
-$RepoUrl = "https://github.com/karnelian/specs-engine.git"
+$RepoUrl = "https://github.com/karnelian/MakeSkill.git"
 $InstallDir = "$env:USERPROFILE\.claude\specs-engine"
 
 Write-Host ""
 Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Cyan
-Write-Host "  specs-engine v5.3 자동 설치" -ForegroundColor Cyan
+Write-Host "  specs-engine v5.4 자동 설치" -ForegroundColor Cyan
 Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Cyan
 Write-Host ""
 

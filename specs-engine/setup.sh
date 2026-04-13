@@ -1,5 +1,5 @@
 #!/bin/bash
-# specs-engine v5.3 설치 스크립트
+# specs-engine v5.4 설치 스크립트
 # 사용법: git clone <repo> ~/.claude/specs-engine && bash ~/.claude/specs-engine/setup.sh
 
 INSTALL_DIR="$HOME/.claude/specs-engine"
@@ -8,7 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  specs-engine v5.3 설치"
+echo "  specs-engine v5.4 설치"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 

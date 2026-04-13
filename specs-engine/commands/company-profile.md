@@ -130,7 +130,7 @@ AskUserQuestion으로 수집:
 
 ## 다른 스킬에서 참조하는 방법
 
-`/product-spec` (specs-engine v5.3) 에서:
+`/product-spec` (specs-engine v5.4) 에서:
 
 ```
 회사 모드 선택 시:
