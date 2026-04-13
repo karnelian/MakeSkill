@@ -6,7 +6,6 @@
 
 # Spec outputs (project-specific, not part of the skill)
 specs/
-product-spec.md
 
 # OS files
 .DS_Store
