@@ -1,0 +1,13 @@
+# bkit runtime state
+.bkit/
+
+# Claude Code local settings
+.claude/
+
+# Spec outputs (project-specific, not part of the skill)
+specs/
+product-spec.md
+
+# OS files
+.DS_Store
+Thumbs.db
